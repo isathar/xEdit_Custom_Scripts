@@ -1,6 +1,11 @@
-WIP xEdit scripts for skyrim/Skyrim SE for automatic patching.
+WIP xEdit scripts for skyrim/Skyrim SE xEdit.
 
-I will be updating and adding more as I finish them.
+I will be updating and adding more scripts and better instructions over time. 
+- For now, this is mostly wip stuff while learning the process by trying to create something like Automatic Perks/Spells/Potion Distribution.
 
-Add NPC Perks.pas
-- Adds perks to all NPCs in loaded plugins based on their skill levels and character classes. Filter configuration files are included.
+
+SkyrimSE - NPC Perks Patcher.pas
+- Adds perks to all NPCs in loaded plugins based on their skill levels and character classes. Filter configuration files are included in NPCPerks/config.
+  
+  Usage:
+  Load any plugins you want to process NPCs from (including official files), run the script (Apply Script).
