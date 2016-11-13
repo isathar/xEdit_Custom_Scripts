@@ -1,4 +1,4 @@
-WIP xEdit scripts for skyrim/Skyrim SE xEdit.
+WIP xEdit scripts for skyrim/Skyrim SE.
 
 I will be updating and adding more scripts and better instructions over time. 
 - For now, this is mostly wip stuff while learning the process by trying to create something like Automatic Perks/Spells/Potion Distribution.
