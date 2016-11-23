@@ -6,8 +6,10 @@ I will be updating and adding more scripts and better instructions over time.
 
 SkyrimSE - NPC Perks Patcher.pas
 - Distributes all loaded perks to all loaded NPCs based on their skill levels and character classes. Filter configuration files are included in NPCPerks/config.
-- Ordinator is not currently supported since it changes editor IDs for vanilla perks.
-- Tested with the base game, DLCs, Immersive Patrols, and the Populated series.
+-- NPCs that are set to inherit their template's spell list are filtered out before name filters are applied, so only NPCs that will actually benefit from perks will get them.
+-- Only humanoid races get perks by default. Additional races can be added to NPCPerks/config/Filter_NPCs.ini (under Include_Races) to distribute perks to animals or beasts, as well.
+- Ordinator perks may work, but haven't been tested extensively.
+- Tested with the base game, DLCs, Immersive Patrols, the Populated series, Warzones SSE (Civil Unrest and Assault Attack), and Alternate Start.
 - The script skips all perks marked non-playable or hidden for now.
 - It still needs some cleaning and optimization, but it's working so far.
   
